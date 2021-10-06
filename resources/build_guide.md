@@ -14,19 +14,13 @@ The Adeept Robot Arm can be assembled by following this handy YouTube guide:
 
 ## Raspberry Pi Interaction
 
-[go there](./raspberry_pi_comms.md)
+You need to learn how to use your Raspberry Pi as a computer. First learn how to use it when connected to a monitor, keyboard, and mouse. It'll be awesome! This module will be taught in-class -- no printed materials necessary.
+
+Once you've mastered the basics, then learn how to use your Kano computer to [connect wirelessly](./raspberry_pi_comms.md) to your Raspberry Pi. You'll need this skill also in order to control your vehicle when the Raspberry Pi is on it.
 
 ## Wheel Assembly
 
-[go there](./wheel_assembly.md)
-
-## Wheel Testing
-
-[go there](./wheel_testing.md)
-
-## Vehicle Building & Playing
-
-[go there](./vehicle_build.md)
+[go there](./drive_system_wiring.md)
 
 ## Beyond Forward & Reverse
 
@@ -44,9 +38,6 @@ The Adeept Robot Arm can be assembled by following this handy YouTube guide:
 
 [go there](./obstacle_sensor.md)
 
-## Robby the Robot
-
-[go there]()
 
 ---
 
