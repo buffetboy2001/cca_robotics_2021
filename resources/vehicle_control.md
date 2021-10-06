@@ -6,9 +6,9 @@ Let's learn how to turn `Robby` left and right.
 
 ## Stop & Turn
 
-When you have a two-wheeled drive system like `Robby`, the wheels provide both the drive motion of the vehicle and also the steering control. How is that? Think of a tank. It only has tracks and yet it goes forward, backward, left, and right. Why? Because it can make the two tracks turn opposite directions from each other. 
+When you have a tank drive system like `Robby`, the tracks provide both the drive motion of the vehicle and also the steering control. How does steering work? Because it can make the two tracks turn opposite directions from each other. 
 
-`Robby` can do the same thing with its wheels!
+`Robby` can do the same thing!
 
 In the python language we're using, we have some commands that will help us do this:
 * `stop()` will make the wheels stop spinning;
@@ -16,7 +16,7 @@ In the python language we're using, we have some commands that will help us do t
 * `left()` will make `Robby` turn left;
 * `right()` will make `Robby` turn right.
 
-Time to try it out. In `code-oss`, create a new file and add this:
+Time to try it out. In `vscode`, create a new file and add this:
 
 ```python
 #!/bin/python3
