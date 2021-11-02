@@ -35,14 +35,30 @@ Quick Modification. The above circuit doesn't use the switch at all. What can yo
 
 ### Control the LED with Python
 
-Remove the red switch. Make sure the LED is on again, like above. Let's control the on-off state of the LED using python code.
+Remove the red switch and let's control the LED using python software. Make sure the LED is on again, like above.
 
-On the Raspberry Pi, open Code and start a new file (`led_control.py` or something like that). 
+On the Raspberry Pi, open Code and start a new file (`led_control.py` or something like that).
 
 Use some python code like this:
 
 ```python
+import RPi.GPIO as GPIO
+import time
 
+GPIO.setmode(GPIO.BCM)
+
+print("LED will turn off...")
+GPIO.setup(2, GPIO.OUT)
+GPIO.output(2, GPIO.LOW)
+
+time.sleep(5)
+
+print("LED will turn on...")
+GPIO.output(2, GPIO.HIGH)
+
+time.sleep(5)
+
+GPIO.cleanup()
 ```
 
 ## Obstacle Detection
