@@ -61,14 +61,6 @@ time.sleep(5)
 GPIO.cleanup()
 ```
 
-## Obstacle Detection
-
-
-## Line Detection
-
-
-## Color Sensing
-
 ---
 
 **Module Complete**

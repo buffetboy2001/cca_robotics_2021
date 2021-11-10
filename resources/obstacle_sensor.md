@@ -14,7 +14,7 @@
 
 ## Assembly
 
-First, decide where you will mount the bracket and breadboard. They need to be hear each other!
+First, decide where you will mount the bracket and breadboard. They need to be near each other!
 
 Examine the obstacle sensor's four connections. It looks like this:
 
@@ -81,9 +81,11 @@ GPIO.cleanup()
 
 ## Try It Out
 
-Place your robot in front of a solid object (like a wall). Run the script and observe the output. Hopefully, you've got sensor readings telling you how far away (approximately) the object is.
+Place your robot in front of a solid object (like a wall). Run the script and observe the output.
 
-Show Mr. Bowman! :)
+Hopefully, you've got sensor readings telling you how far away (approximately) the object is.
+
+Now use a ruler to find out how far your object actually is from your sensor. How close are measurements? Try a few distances and report back to Mr. Bowman.
 
 ---
 
