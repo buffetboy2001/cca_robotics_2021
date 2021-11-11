@@ -60,17 +60,14 @@ Do this again with three more wires. You should have 2 **'Y'** configurations no
 * the **LEFT** line sensor's **DO** pins must be connected to pin GPIO 17;
 * the **RIGHT** line sensor's **DO** must be connected to GPIO 27.
 
-6. Attach the line sensors to your chassis. Remember, zip-ties are your friend!!
-
-    * Take a look at Mr. Bowman's robot if you need some hints or ideas.
 
 ## Tune the Line Sensors
 
 > Turn your Raspberry Pi on.
 
-The sensors have a blue light that turns on and off. It should be on when over a white area on the floor. It should be off when over a dark area. But, you have to make sure this works correct. 
+The sensors have blue-green lights that turns on when the Raspberry Pi is powering them. The lights also tell you what the sensor is sensing. The lights should be bright when over a white area. And they should be off when over a dark area. 
 
-1. Use the small potentiometer on the board to tune your sensors, so that the LEDs turn off when over a dark line, and lights up blue when over white space.
+If needed, use the small potentiometer on the board to tune your sensors, so that the LEDs turn off when over a dark line, and lights up bright     when over white space.
 
 ![pic from Raspberry Pi tutorial](pics/tune_line_sensors.jpg)
 

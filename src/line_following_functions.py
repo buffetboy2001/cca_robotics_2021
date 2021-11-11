@@ -4,8 +4,6 @@ Working with line sensors
 from gpiozero import LineSensor
 from time import sleep
 
-robby = None
-
 def left_sensor_detected_white():
     print("left sensor on white...")
     return
@@ -28,8 +26,8 @@ if __name__ == "__main__":
     '''
 
     # Setup the line sensors
-    left_sensor = LineSensor(21)
-    right_sensor = LineSensor(14)
+    left_sensor = LineSensor(17)
+    right_sensor = LineSensor(27)
 
     # left sensor functions
     left_sensor.when_no_line = left_sensor_detected_black
