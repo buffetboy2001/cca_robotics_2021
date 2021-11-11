@@ -29,7 +29,7 @@ Do this again with three more wires. You should have 2 **'Y'** configurations no
 
 1. Examine a line sensor and identify **VCC** (voltage), **GND** (ground), **DO** (digital out)
 
-![pic from Raspberry Pi tutorial](pics/line_sensor.jpg)
+![pic from Raspberry Pi tutorial](pics/line_sensor_4pin.jpg)
 
 <br>
 <br>
@@ -67,14 +67,65 @@ Do this again with three more wires. You should have 2 **'Y'** configurations no
 
 The sensors have blue-green lights that turns on when the Raspberry Pi is powering them. The lights also tell you what the sensor is sensing. The lights should be bright when over a white area. And they should be off when over a dark area. 
 
-If needed, use the small potentiometer on the board to tune your sensors, so that the LEDs turn off when over a dark line, and lights up bright     when over white space.
+If needed, use the small potentiometer on the board to tune your sensors, so that the LEDs turn off when over a dark spot and light up bright when over white space.
 
-![pic from Raspberry Pi tutorial](pics/tune_line_sensors.jpg)
+### Line Sensor Over White
 
-Once both line sensors work correctly, show Mr. Bowman!
+![](pics/over_white.jpg)
+
+
+### Line Sensor Over Black
+
+![](pics/over_black.jpg)
 
 ## Line Sensing in Python Code
 
+```python
+'''
+Working with line sensors
+'''
+from gpiozero import LineSensor
+from time import sleep
+
+def left_sensor_detected_white():
+    print("left sensor on white...")
+    return
+
+def right_sensor_detected_white():
+    print("right sensor on white...")
+    return
+
+def left_sensor_detected_black():
+    print("left sensor on black...")
+    return
+
+def right_sensor_detected_black():
+    print("right sensor on black...")
+    return
+
+if __name__ == "__main__":
+    '''
+    Code starts here
+    '''
+
+    # Setup the line sensors
+    left_sensor = LineSensor(17)
+    right_sensor = LineSensor(27)
+
+    # left sensor functions
+    left_sensor.when_no_line = left_sensor_detected_black
+    left_sensor.when_line = left_sensor_detected_white
+
+    # right sensor functions
+    right_sensor.when_no_line = right_sensor_detected_black
+    right_sensor.when_line = right_sensor_detected_white
+
+    sleep(20)
+
+    print("all done")
+```
+
+Once both line sensors and code work correctly, show Mr. Bowman!
 
 ---
 
