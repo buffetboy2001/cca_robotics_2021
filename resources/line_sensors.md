@@ -1,4 +1,4 @@
-# Adding the Line Sensors
+# Playing with Line Sensors
 
 **Module Goal**: connect the line sensors to your Pi and tune each to recognize a black line on a white background.
 
