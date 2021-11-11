@@ -11,7 +11,7 @@
 
 ## Prepare the Connectors
 
-> Turn the Rasbperry Pi off.
+> Turn the Raspberry Pi off.
 
 1. Ask Mr. Bowman to strip some wires for you.
 
@@ -75,6 +75,9 @@ The sensors have a blue light that turns on and off. It should be on when over a
 ![pic from Raspberry Pi tutorial](pics/tune_line_sensors.jpg)
 
 Once both line sensors work correctly, show Mr. Bowman!
+
+## Line Sensing in Python Code
+
 
 ---
 
