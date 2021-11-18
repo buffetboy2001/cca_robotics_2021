@@ -23,18 +23,20 @@ time.sleep(0.00001)
 
 GPIO.output(TRIG, False)
 
-while GPIO.input(ECHO)==0:
+try:
+  while GPIO.input(ECHO)==0:
+    print('echo==0')
+    pulse_start = time.time()
 
-  pulse_start = time.time()
+  while GPIO.input(ECHO)==1:
+    # print('echo==1')
+    pulse_end = time.time()
 
-while GPIO.input(ECHO)==1:
+  pulse_duration = pulse_end - pulse_start
+  distance = pulse_duration * 17150
+  distance = round(distance, 2)
 
-  pulse_end = time.time()
+  print("Distance:",distance,"cm")
 
-pulse_duration = pulse_end - pulse_start
-distance = pulse_duration * 17150
-distance = round(distance, 2)
-
-print("Distance:",distance,"cm")
-
-GPIO.cleanup()
+finally:
+  GPIO.cleanup()
