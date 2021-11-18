@@ -17,7 +17,9 @@ GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
 GPIO.setup(GPIO_ECHO, GPIO.IN)
  
 def distance():
-    # set Trigger to HIGH
+    # set Trigger to LOW, then HIGH
+    GPIO.output(GPIO_TRIGGER, False)
+    time.sleep(1)
     GPIO.output(GPIO_TRIGGER, True)
  
     # set Trigger after 0.01ms to LOW
@@ -25,15 +27,21 @@ def distance():
     GPIO.output(GPIO_TRIGGER, False)
  
     StartTime = time.time()
+    print(f'StartTime:{StartTime}')
     StopTime = time.time()
+    print(f'StopTime:{StopTime}')
  
     # save StartTime
     while GPIO.input(GPIO_ECHO) == 0:
-        StartTime = time.time()
+        pass
+    StartTime = time.time()
  
     # save time of arrival
+    print('looking for low while high')
     while GPIO.input(GPIO_ECHO) == 1:
-        StopTime = time.time()
+        pass
+    StopTime = time.time()
+    print('echo went low and exited')
  
     # time difference between start and arrival
     TimeElapsed = StopTime - StartTime
