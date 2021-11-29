@@ -1,14 +1,10 @@
-# CCA Robotics Course Materials
+# CCA Robotics Course Guide
 
 Course materials for [Cornerstone Classical Academy](https://www.ccaroanoke.org) (Roanoke, VA, USA) high-school robotics class, academic year 2021-22.
 
-**NOTE**: This guide will be changing continuously until the end of the 21/22 academic year.
-
-## cca_robotics_2021
-
-Course materials for 2021-22 robotics high-school class at [Cornerstone Classical Academy Roanoke](https://cornerstoneclassicalroanoke.org/).
-
 Course Instructor: Stuart Bowman (e.g. [buffetboy2001 on GitHub](https://github.com/buffetboy2001), [faculty listing](https://cornerstoneclassicalroanoke.org/stuart-bowman))
+
+**NOTE**: This guide will be changing continuously until the end of the 21/22 academic year.
 
 ## Course Goals
 
