@@ -34,14 +34,20 @@ The Xioar Tank robot platform can be assembled using this handy YouTube guide:
 
 ## Assembly
 
-The Adeept Robot Arm can be assembled by following this handy YouTube guide: 
+The Adeept Robot Arm can be assembled by following these resources: 
 
-* Tutorial w/ PDFs: https://www.adeept.com/learn/detail-53.html 
-* Build Tutorial Video (really good, for R-Pi model): https://www.adeept.com/video/detail-136.html 
-* Document for building: https://www.adeept.com/video/static1/itemsfile/RaspArmS_Tutorial.pdf 
+* Build Tutorial Video (really good, for R-Pi model): https://www.adeept.com/video/detail-136.html
+* Online [course guide](https://www.adeept.com/learn/tutorial-291.html) by Adeept.
+* Tutorial w/ PDFs: https://www.adeept.com/learn/detail-53.html
+* [PDF Document](https://www.adeept.com/video/static1/itemsfile/RaspArmS_Tutorial.pdf) for building;
 
+Make sure you assemble the arm correctly. It's easy to put the gripper on upside down and make other silly mistakes that could make the arm not work properly. Also, double check your wiring according to Section 5.3 and Section 10 of the [online course guide](https://www.adeept.com/learn/tutorial-291.html).
 ## Arm Control
 
+Major steps to follow in the [course guide](https://www.adeept.com/learn/tutorial-291.html).
+
+* Section 5. Learn to control the OLED screen.
+* 
 
 ---
 
