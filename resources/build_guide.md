@@ -8,11 +8,11 @@ Once you've mastered the basics, then learn how to use your Kano computer to [co
 
 # Robot Tank Assembly
 
-The Xioar Tank robot platform can be assembled using this handy YouTube guide: 
+The Xioar Tank robot platform is great! The chassis is large, so plenty of room to connect the Raspberry Pi and sensors. Step through these modules to get it all working.
 
-## Wheel Assembly
+## Drive System Assembly
 
-[go there](./drive_system_wiring.md)
+[Connect the motors](./drive_system_wiring.md)
 
 ## Vehicle Control
 
@@ -20,15 +20,17 @@ The Xioar Tank robot platform can be assembled using this handy YouTube guide:
 
 ## Add the Line Sensors
 
-[go there](./line_sensors.md)
+[Let's start sensing!](./line_sensors.md)
 
 ## Line Following
 
-[go there](./line_following.md)
+[Use the sensors to follow a line.](./line_following.md)
 
 ## Obstacle Sensing
 
-[go there](./obstacle_sensor.md)
+[Wire the sensors to detect an obstacle.](./obstacle_sensor.md)
+
+---
 
 # Robot Arm Guide 
 
@@ -42,6 +44,7 @@ The Adeept Robot Arm can be assembled by following these resources:
 * [PDF Document](https://www.adeept.com/video/static1/itemsfile/RaspArmS_Tutorial.pdf) for building;
 
 Make sure you assemble the arm correctly. It's easy to put the gripper on upside down and make other silly mistakes that could make the arm not work properly. Also, double check your wiring according to Section 5.3 and Section 10 of the [online course guide](https://www.adeept.com/learn/tutorial-291.html).
+
 ## Arm Control
 
 Major steps to follow in the [course guide](https://www.adeept.com/learn/tutorial-291.html).
@@ -61,4 +64,4 @@ These are all designed to be 5-10 minutes quickies.
 
 ---
 
-~ _Happy Robot-ing_ ~
+~ Happy Robot-ing ~
