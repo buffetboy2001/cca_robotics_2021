@@ -50,7 +50,10 @@ Make sure you assemble the arm correctly. It's easy to put the gripper on upside
 Major steps to follow in the [course guide](https://www.adeept.com/learn/tutorial-291.html).
 
 * Section 5. Learn to control the OLED screen.
-* 
+
+## Color Sensing
+
+[Yup, you can sense color!](./tcs3200_color_sensor.md)
 
 ---
 
