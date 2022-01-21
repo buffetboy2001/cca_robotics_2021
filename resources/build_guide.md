@@ -37,12 +37,14 @@ Once you've mastered the basics, then learn how to use your Kano computer to [co
 The Adeept Robot Arm can be assembled by following these resources: 
 
 * Build Tutorial Video (really good, for R-Pi model): https://www.adeept.com/video/detail-136.html
-* Online [course guide](https://www.adeept.com/learn/tutorial-291.html) by Adeept.
-* Tutorial w/ PDFs: https://www.adeept.com/learn/detail-53.html
+* Online [course guide](https://www.adeept.com/learn/detail-53.html) by Adeept.
 * [PDF Document](https://www.adeept.com/video/static1/itemsfile/RaspArmS_Tutorial.pdf) for building;
 
-Make sure you assemble the arm correctly. It's easy to put the gripper on upside down and make other silly mistakes that could make the arm not work properly. Also, double check your wiring according to Section 5.3 and Section 10 of the [online course guide](https://www.adeept.com/learn/tutorial-291.html).
+Make sure you assemble the gripper correctly. It's easy to put the gripper on upside down and make other silly mistakes that could make the arm not work properly. Also, double check your wiring according to Section 5.3 and Section 10 of the [online course guide](https://www.adeept.com/learn/tutorial-291.html).
 
+## Adeept Code
+
+\>> [Install python code that Adeept has written.](./adeept_code_installation.md)
 ## Arm Control
 
 Major steps to follow in the [course guide](https://www.adeept.com/learn/tutorial-291.html).
